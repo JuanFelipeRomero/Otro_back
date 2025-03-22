@@ -3,6 +3,7 @@ package co.ucentral.bkedgame.persistencia.entidades;
 import jakarta.persistence.*;
 
 @Entity
+
 public class Tmp {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
